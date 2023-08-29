@@ -1,8 +1,8 @@
 name: Hello World Docker CI
 on:
   push:
-    branches: main
-    paths: hello-world-docker-action/action.yml
+    branches: [ main ]
+    paths: [ hello-world-docker-action/** ]
   workflow_dispatch:
 
 jobs:
