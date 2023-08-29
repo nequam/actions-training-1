@@ -1,4 +1,4 @@
-#!/usr/bin/env sh -l
+#!/usr/bin/env -S sh -l
 
 echo "Hello $1"
 time=$(date)
